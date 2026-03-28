@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Glean Photos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #fafafa;
+            padding: 24px;
+        }
+        .container { max-width: 680px; margin: 0 auto; }
+        h1 { font-size: 28px; margin-bottom: 8px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+        p, li { font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; }
+        .date { font-size: 14px; color: #888; margin-bottom: 32px; }
+        a { color: #007aff; text-decoration: none; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+        .lang-switcher {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .lang-btn {
+            padding: 6px 14px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            background: #fff;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .lang-btn:hover { border-color: #007aff; color: #007aff; }
+        .lang-btn.active { background: #007aff; color: #fff; border-color: #007aff; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('zh')">简体中文</button>
+        <button class="lang-btn" onclick="switchLang('ja')">日本語</button>
+        <button class="lang-btn" onclick="switchLang('ko')">한국어</button>
+    </div>
+
+    <!-- English -->
+    <div id="lang-en" class="lang-content active">
+        <h1>Terms of Service</h1>
+        <p class="date">Effective Date: March 22, 2026</p>
+        <p>By downloading, installing, or using Glean Photos ("the App"), you agree to be bound by these Terms of Service. If you do not agree, please do not use the App.</p>
+        <h2>1. Description of Service</h2>
+        <p>Glean Photos is a photo organization app that allows you to quickly sort your photos and videos by swiping. The App operates entirely on your device and does not require an internet connection for core functionality.</p>
+        <h2>2. Subscriptions and Purchases</h2>
+        <ul>
+            <li>The App offers a free tier with a daily limit of 20 swipes.</li>
+            <li><strong>Monthly Subscription:</strong> Provides unlimited swipes. The subscription automatically renews each month unless canceled at least 24 hours before the end of the current billing period.</li>
+            <li><strong>Lifetime Purchase:</strong> A one-time purchase that provides unlimited swipes permanently.</li>
+            <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>
+            <li>You can manage or cancel subscriptions in your device's Settings &gt; Apple ID &gt; Subscriptions.</li>
+        </ul>
+        <h2>3. Photo Deletion</h2>
+        <p>When you use the App to delete photos, they are moved to your device's "Recently Deleted" album as managed by Apple's Photos framework. <strong>You are solely responsible for reviewing items before confirming permanent deletion.</strong></p>
+        <h2>4. Intellectual Property</h2>
+        <p>All content, design, and code of the App are the intellectual property of the developer. You may not copy, modify, distribute, or reverse-engineer the App.</p>
+        <h2>5. Disclaimer of Warranties</h2>
+        <p>The App is provided "as is" without warranties of any kind, express or implied. We do not guarantee that the App will be error-free or uninterrupted.</p>
+        <h2>6. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by applicable law, the developer shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of the App, including but not limited to data loss or accidental photo deletion.</p>
+        <h2>7. Changes to These Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. Continued use of the App after changes constitutes acceptance of the updated Terms.</p>
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions, please contact us at: <a href="mailto:gleanphotos@outlook.com">gleanphotos@outlook.com</a></p>
+    </div>
+
+    <!-- 简体中文 -->
+    <div id="lang-zh" class="lang-content">
+        <h1>使用条款</h1>
+        <p class="date">生效日期：2026 年 3 月 22 日</p>
+        <p>下载、安装或使用 Glean Photos（以下简称"本应用"）即表示您同意受本使用条款的约束。如果您不同意，请勿使用本应用。</p>
+        <h2>1. 服务说明</h2>
+        <p>Glean Photos 是一款照片整理应用，通过左右滑动快速分类您的照片和视频。本应用完全在您的设备上运行，核心功能无需互联网连接。</p>
+        <h2>2. 订阅与购买</h2>
+        <ul>
+            <li>本应用提供免费版，每天限制滑动 20 次。</li>
+            <li><strong>月度订阅：</strong>提供无限滑动次数。订阅将自动续费，除非在当前计费周期结束前至少 24 小时取消。</li>
+            <li><strong>终身购买：</strong>一次性购买，永久享有无限滑动次数。</li>
+            <li>费用将在确认购买时从您的 Apple ID 账户扣除。</li>
+            <li>您可以在设备的「设置」&gt;「Apple ID」&gt;「订阅」中管理或取消订阅。</li>
+        </ul>
+        <h2>3. 照片删除</h2>
+        <p>当您使用本应用删除照片时，照片将被移至设备的"最近删除"相册，由 Apple Photos 框架管理。<strong>您有责任在确认永久删除前检查相关项目。</strong></p>
+        <h2>4. 知识产权</h2>
+        <p>本应用的所有内容、设计和代码均为开发者的知识产权。您不得复制、修改、分发或逆向工程本应用。</p>
+        <h2>5. 免责声明</h2>
+        <p>本应用按"现状"提供，不提供任何明示或暗示的保证。我们不保证本应用不会出错或不会中断。</p>
+        <h2>6. 责任限制</h2>
+        <p>在适用法律允许的最大范围内，开发者不对因使用本应用而产生的任何间接、附带、特殊或后果性损害承担责任，包括但不限于数据丢失或意外照片删除。</p>
+        <h2>7. 条款变更</h2>
+        <p>我们保留随时修改本条款的权利。变更后继续使用本应用即表示接受更新后的条款。</p>
+        <h2>8. 联系我们</h2>
+        <p>如有任何问题，请通过以下方式联系我们：<a href="mailto:gleanphotos@outlook.com">gleanphotos@outlook.com</a></p>
+    </div>
+
+    <!-- 日本語 -->
+    <div id="lang-ja" class="lang-content">
+        <h1>利用規約</h1>
+        <p class="date">発効日：2026年3月22日</p>
+        <p>Glean Photos（以下「当アプリ」）をダウンロード、インストール、または使用することにより、お客様は本利用規約に同意したものとみなされます。同意されない場合は、当アプリを使用しないでください。</p>
+        <h2>1. サービスの説明</h2>
+        <p>Glean Photos は、スワイプ操作で写真や動画を素早く整理できるアプリです。当アプリはお客様のデバイス上で完全に動作し、基本機能にインターネット接続は不要です。</p>
+        <h2>2. サブスクリプションと購入</h2>
+        <ul>
+            <li>当アプリは、1日20回のスワイプ制限付きで無料で利用できます。</li>
+            <li><strong>月額サブスクリプション：</strong>無制限のスワイプを提供します。現在の請求期間終了の少なくとも24時間前にキャンセルしない限り、自動的に更新されます。</li>
+            <li><strong>永久購入：</strong>一度の購入で、永久に無制限のスワイプを利用できます。</li>
+            <li>購入確認時に、お客様の Apple ID アカウントに請求されます。</li>
+            <li>デバイスの「設定」&gt;「Apple ID」&gt;「サブスクリプション」でサブスクリプションの管理・キャンセルができます。</li>
+        </ul>
+        <h2>3. 写真の削除</h2>
+        <p>当アプリで写真を削除すると、Apple の Photos フレームワークにより、デバイスの「最近削除した項目」アルバムに移動されます。<strong>完全削除を確認する前に項目を確認する責任はお客様にあります。</strong></p>
+        <h2>4. 知的財産権</h2>
+        <p>当アプリのすべてのコンテンツ、デザイン、コードは開発者の知的財産です。当アプリを複製、改変、配布、またはリバースエンジニアリングすることはできません。</p>
+        <h2>5. 保証の免責</h2>
+        <p>当アプリは「現状のまま」提供され、明示または黙示を問わず、いかなる種類の保証も行いません。当アプリにエラーがないこと、または中断なく動作することを保証するものではありません。</p>
+        <h2>6. 責任の制限</h2>
+        <p>適用法が認める最大限度において、開発者は当アプリの使用に起因する間接的、付随的、特別、または結果的な損害について、データの損失や誤った写真の削除を含め、一切の責任を負いません。</p>
+        <h2>7. 規約の変更</h2>
+        <p>当社は、いつでも本規約を変更する権利を留保します。変更後も当アプリの使用を継続することは、更新された規約への同意を意味します。</p>
+        <h2>8. お問い合わせ</h2>
+        <p>ご質問がございましたら、以下までご連絡ください：<a href="mailto:gleanphotos@outlook.com">gleanphotos@outlook.com</a></p>
+    </div>
+
+    <!-- 한국어 -->
+    <div id="lang-ko" class="lang-content">
+        <h1>이용 약관</h1>
+        <p class="date">시행일: 2026년 3월 22일</p>
+        <p>Glean Photos(이하 "본 앱")를 다운로드, 설치 또는 사용함으로써 귀하는 본 이용 약관에 동의하는 것으로 간주됩니다. 동의하지 않으시면 본 앱을 사용하지 마세요.</p>
+        <h2>1. 서비스 설명</h2>
+        <p>Glean Photos는 스와이프로 사진과 동영상을 빠르게 정리할 수 있는 앱입니다. 본 앱은 기기에서 완전히 작동하며, 핵심 기능에 인터넷 연결이 필요하지 않습니다.</p>
+        <h2>2. 구독 및 구매</h2>
+        <ul>
+            <li>본 앱은 하루 20회 스와이프 제한이 있는 무료 버전을 제공합니다.</li>
+            <li><strong>월간 구독:</strong> 무제한 스와이프를 제공합니다. 현재 결제 기간 종료 최소 24시간 전에 취소하지 않으면 자동으로 갱신됩니다.</li>
+            <li><strong>평생 구매:</strong> 한 번의 구매로 영구적으로 무제한 스와이프를 이용할 수 있습니다.</li>
+            <li>구매 확인 시 Apple ID 계정으로 결제됩니다.</li>
+            <li>기기의 「설정」&gt;「Apple ID」&gt;「구독」에서 구독을 관리하거나 취소할 수 있습니다.</li>
+        </ul>
+        <h2>3. 사진 삭제</h2>
+        <p>본 앱에서 사진을 삭제하면, Apple의 Photos 프레임워크에 의해 기기의 "최근 삭제된 항목" 앨범으로 이동됩니다. <strong>영구 삭제를 확인하기 전에 항목을 검토하는 것은 귀하의 책임입니다.</strong></p>
+        <h2>4. 지적 재산권</h2>
+        <p>본 앱의 모든 콘텐츠, 디자인 및 코드는 개발자의 지적 재산입니다. 본 앱을 복제, 수정, 배포 또는 역설계할 수 없습니다.</p>
+        <h2>5. 보증 면책</h2>
+        <p>본 앱은 명시적이든 묵시적이든 어떠한 종류의 보증도 없이 "있는 그대로" 제공됩니다. 본 앱에 오류가 없거나 중단 없이 작동한다고 보장하지 않습니다.</p>
+        <h2>6. 책임 제한</h2>
+        <p>관련 법률이 허용하는 최대 범위 내에서, 개발자는 데이터 손실이나 실수로 인한 사진 삭제를 포함하여 본 앱 사용으로 인한 간접적, 부수적, 특별 또는 결과적 손해에 대해 책임을 지지 않습니다.</p>
+        <h2>7. 약관 변경</h2>
+        <p>당사는 언제든지 본 약관을 변경할 권리를 보유합니다. 변경 후에도 본 앱을 계속 사용하면 업데이트된 약관에 동의하는 것으로 간주됩니다.</p>
+        <h2>8. 문의</h2>
+        <p>질문이 있으시면 다음으로 연락해 주세요: <a href="mailto:gleanphotos@outlook.com">gleanphotos@outlook.com</a></p>
+    </div>
+</div>
+
+<script>
+function switchLang(lang) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.querySelector('[onclick="switchLang(\'' + lang + '\')"]').classList.add('active');
+}
+
+(function() {
+    var userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    if (userLang.startsWith('zh')) switchLang('zh');
+    else if (userLang.startsWith('ja')) switchLang('ja');
+    else if (userLang.startsWith('ko')) switchLang('ko');
+})();
+</script>
+</body>
+</html>
